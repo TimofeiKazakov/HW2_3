@@ -3,12 +3,8 @@ second = input('Введите второе число: ')
 third = input('Введите третье число: ')
 
 if first == second == third:
-    print(f"{first} {second} {third}")
-elif first == second:
-    print(f"{first} {second}")
-elif first == third:
-    print(f"{first} {third}")
-elif second == third:
-    print(f"{second} {third}")
+    print(3)
+elif first == second or first == third or second == third:
+    print(2)
 else:
     print(0)
